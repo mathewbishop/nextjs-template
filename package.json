@@ -1,0 +1,31 @@
+{
+  "name": "nextjs-template",
+  "version": "1.0.0",
+  "description": "A template repo for NextJS projects, with some dependencies, setup, and config in place.",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^9.5.3",
+    "nprogress": "^0.2.0",
+    "postcss-import": "^12.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.8.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathewbishop/nextjs-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathewbishop/nextjs-template/issues"
+  },
+  "homepage": "https://github.com/mathewbishop/nextjs-template#readme"
+}
