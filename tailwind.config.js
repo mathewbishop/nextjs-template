@@ -1,16 +1,17 @@
-const defaultTheme = require("tailwindcss/defaultTheme")
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  purge: ["./src/**/*.jsx"],
+  purge: ['./src/**/*.jsx'],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
-      },
-      screens: {
-        print: { raw: "print" },
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
   },
-  plugins: [require("@tailwindcss/ui")],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
